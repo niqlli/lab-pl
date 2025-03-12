@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mPPUKSsERUYJle3rbkMfXXD6f5He+bgHmpSGTsG41lfrXKFN2suPiAmIj2KS3jyQMPxfkbboztCtr+UbzlL6vA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\veron\\source\\repos\\lab3.2\\lab3.2\\lab3.2.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\veron\\.nuget\\packages\\fsharp.core\\8.0.100\\fsharp.core.8.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}
