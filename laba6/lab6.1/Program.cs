@@ -19,7 +19,7 @@ internal class Program
 
         Console.WriteLine("\nДочерний класс:");
 
-       // var child1 = new SurfaceAreaAndDiagonal(figure1.Length, figure1.Width, figure1.Height);
+       //var figure3 = new SurfaceAreaAndDiagonal(figure1.Length, figure1.Width, figure1.Height);
         var figure3 = new SurfaceAreaAndDiagonal(InputDataWithCheck.InputIntegerWithValidation("Введите длину: ", int.MinValue, int.MaxValue),
                        InputDataWithCheck.InputIntegerWithValidation("Введите ширину: ", int.MinValue, int.MaxValue),
                        InputDataWithCheck.InputIntegerWithValidation("Введите высоту: ", int.MinValue, int.MaxValue));
