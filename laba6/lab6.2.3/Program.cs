@@ -25,6 +25,7 @@ public class Program
 
         Time time4 = new Time(time1);
         Console.WriteLine($"time4 (копия time1): {time4}");
+
         Time time5 = time1++;
         Console.WriteLine($"time5 (time1++): {time5}");
         Console.WriteLine($"time1 (после time1++): {time1}"); 

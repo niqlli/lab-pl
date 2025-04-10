@@ -1,10 +1,10 @@
 ﻿namespace lab6._2._3
 {
-    public class Time
+    internal class Time
     {
-        public byte Hours;
-        public byte Minutes;
-        public byte Seconds;
+        protected byte Hours;
+        protected byte Minutes;
+        protected byte Seconds;
 
         public Time() { }
 
@@ -82,18 +82,17 @@
 
         public static Time operator --(Time time)
         {
-            Time newTime = new Time(time); 
-            newTime.Minutes--;
-            if (newTime.Minutes < 0)
+            time.Minutes--;
+            if (time.Minutes < 0)
             {
-                newTime.Minutes += 60;
-                newTime.Hours--;
-                if (newTime.Hours < 0)
+                time.Minutes += 60;
+                time.Hours--;
+                if (time.Hours < 0)
                 {
-                    newTime.Hours += 24;
+                    time.Hours += 24;
                 }
             }
-            return newTime;
+            return time;
         }
 
 
